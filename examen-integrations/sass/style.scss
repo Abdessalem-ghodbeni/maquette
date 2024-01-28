@@ -1,0 +1,134 @@
+
+@import "Variables";
+@import "media";
+.nav_link_style{
+    color:$primary_color;
+    font-size: $link_nav_size;
+    font-family:$font-family;
+    font-weight:$font-weight-regular;
+}
+.best_title{
+    color: $title_color;
+    font-size:$title_size;
+    font-family:$font-family;
+    font-weight:$font-weight-semiBold;
+    @include xs {
+        font-size:$title_size_s;
+    }
+
+
+}
+.designed_title{
+    color: $title_color;
+    font-size:$designed_title_size;
+    font-family:$font-family;
+    font-weight:$font-weight-semiBold;
+    line-height: $line-heigth;
+
+    @include xs {
+        font-size:$designed_title_size_s;
+    }
+@include md {
+        font-size:$designed_title_size_s;
+    }
+
+}
+
+.paragraphe_section_one{
+    font-size: $font_size_to_paragraphe;
+    color: $gris_color;
+    font-family:$font-family;
+    font-weight:$font-weight-regular;
+    @include xs {
+        font-size:$_size;
+    }
+
+}
+.btn_primary{
+    width: $btn_width;
+    height: $height;
+    background-color: $pink_color;
+    border-radius: $border_radius;
+    border: $border;
+    font-family:$font-family;
+    font-size: $link_nav_size;
+    color:$white_color;
+    font-weight:$font-weight-bold;
+    @include xs {
+        font-size:$_size;
+        width: $btn_width_s;
+        height: $height_s;
+    }
+
+
+
+
+}
+.title_section_two,.title_section_two_network,.title_section_two_begger{
+    font-size: $font-size-section_two;
+    font-family:$font-family;
+    font-weight:$font-weight-semiBold;
+ 
+    line-height: $line-heigth;
+}
+.title_section_two{
+  
+    color: $pink_color;
+     
+
+}
+.title_section_two_network{
+ 
+    color: $blue_color;
+     
+
+}
+.title_section_two_begger{
+ 
+    color: $green_color;
+   
+
+}
+
+.custumer_top_margin{
+    margin-top: $margin_top;
+    @include xs {
+       
+        margin-top: $margin_top-s;
+    }
+}
+
+.section_two_paragraphe{
+    font-family:$font-family;
+    font-weight:$font-weight-regular;
+    font-size: $link_nav_size;
+    color: $gris_color;
+
+    line-height: $line-heigth-paragraphe;
+}
+.footer_custumer{
+    background-color:$primary_color ;
+    height: $height_footer;
+    margin-top: $margin_top;
+    @include xs {
+        height: $height_footer-s;
+        margin-top: $margin_top-s;
+    }
+}
+
+.title_footer_integration{
+    color:$white_color ;
+    font-size: $integration_size_title;
+    font-family:$font-family;
+    font-weight:$font-weight-bold;
+    @include xs {
+        font-size: $integration_size_title-s;
+    }
+}
+.footer_custumer-link{
+    font-size:$link_nav_size ;
+    color: $white_color;
+    text-decoration: $text_decoration !important;
+    font-family:$font-family;
+    font-weight:$font-weight-regular;
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Montserrat:wght@100&family=Nunito:wght@700&family=Poppins:wght@300&family=Roboto:wght@100;300&family=Tajawal:wght@200&display=swap");
+.title_nav {
+  font-size: 27px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "OpenSans";
+}
+
+.item_nav_active {
+  font-size: 15px;
+  font-family: "Lato";
+  color: #ff6c40;
+  font-weight: 700;
+}
+
+.item_nav {
+  font-size: 15px;
+  font-family: "Lato";
+  color: #bfbfbf;
+  font-weight: 700;
+}
+
+.Galaxy_title {
+  font-size: 22px;
+  font-family: "Lato";
+  font-weight: 600;
+  color: #000000;
+}
+
+.paragraphe_galaxy {
+  font-size: 15px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  color: #535353;
+  line-height: 24px;
+}
+
+.button_read_more {
+  width: 124px;
+  height: 26px;
+  border: 1px solid #ff6c40;
+  border-radius: 5px;
+  color: #ff6c40;
+  background-color: #ffffff;
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.tags-title {
+  color: #535353;
+  font-size: 13px;
+}
+
+.btn_previous {
+  width: 135px;
+  height: 35px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer_title {
+  font-size: 13px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #535353;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

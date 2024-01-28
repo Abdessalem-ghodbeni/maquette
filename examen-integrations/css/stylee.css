@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.nav_link_style {
+  color: #313b5b;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.best_title {
+  color: #242f51;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  .best_title {
+    font-size: 30px;
+  }
+}
+
+.designed_title {
+  color: #242f51;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+}
+@media (max-width: 480px) {
+  .designed_title {
+    font-size: 25px;
+  }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .designed_title {
+    font-size: 25px;
+  }
+}
+
+.paragraphe_section_one {
+  font-size: 18px;
+  color: #616368;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 480px) {
+  .paragraphe_section_one {
+    font-size: 15px;
+  }
+}
+
+.btn_primary {
+  width: 170px;
+  height: 57px;
+  background-color: #f55767;
+  border-radius: 28.25px;
+  border: 1px solid #f55767;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+}
+@media (max-width: 480px) {
+  .btn_primary {
+    font-size: 15px;
+    width: 125px;
+    height: 50px;
+  }
+}
+
+.title_section_two, .title_section_two_network, .title_section_two_begger {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.title_section_two {
+  color: #f55767;
+}
+
+.title_section_two_network {
+  color: #2563ff;
+}
+
+.title_section_two_begger {
+  color: #40975f;
+}
+
+.custumer_top_margin {
+  margin-top: 7rem;
+}
+@media (max-width: 480px) {
+  .custumer_top_margin {
+    margin-top: 2rem;
+  }
+}
+
+.section_two_paragraphe {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #616368;
+  line-height: 24px;
+}
+
+.footer_custumer {
+  background-color: #313b5b;
+  height: 378px;
+  margin-top: 7rem;
+}
+@media (max-width: 480px) {
+  .footer_custumer {
+    height: 500px;
+    margin-top: 2rem;
+  }
+}
+
+.title_footer_integration {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 480px) {
+  .title_footer_integration {
+    font-size: 19px;
+  }
+}
+
+.footer_custumer-link {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=stylee.css.map */
